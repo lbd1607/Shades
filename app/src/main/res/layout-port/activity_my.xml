@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.missouristate.davis916.shades.MyActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- List fragment -->
+    <fragment
+        android:id="@+id/fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.missouristate.davis916.shades.ListFragment"
+        tools:layout="@layout/list_fragment" >
+    </fragment>
+</LinearLayout>
